@@ -1,0 +1,25 @@
+# RAG Gradio App — Requirements
+# Install all dependencies with:
+#   pip install -r requirements.txt
+
+# ── Core LangChain ────────────────────────────────────────────
+langchain
+langchain-community
+langchain-ollama
+langchain-text-splitters
+langchain-chroma
+langchain-core
+
+# ── Vector store ──────────────────────────────────────────────
+chromadb
+
+# ── Document loaders ──────────────────────────────────────────
+pypdf
+python-docx
+docx2txt
+
+# ── Gradio UI ─────────────────────────────────────────────────
+gradio>=6.0
+
+# ── Utilities ─────────────────────────────────────────────────
+autopep8
